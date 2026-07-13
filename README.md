@@ -26,11 +26,11 @@ No proprietary architecture, internal codenames, or customer detail here — and
 
 ### Featured
 
-### [workstream](https://github.com/an1ket-s1ngh/workstream)
+### [workstream](https://github.com/acephos/workstream)
 Multi-session agent orchestration harness — parallel workstreams, role routing (`fast` / `good`), and delivery contracts.  
 **Stack:** TypeScript CLI · mock adapter offline · optional OpenAI-compatible backend · CI + tests
 
-### [strangler-lab](https://github.com/an1ket-s1ngh/strangler-lab)
+### [strangler-lab](https://github.com/acephos/strangler-lab)
 Strangler Fig lab: legacy Node monolith → Go microservices with gateway cutover and contract tests.  
 Generic retail orders/inventory domain — **not** POS product code, **not** employer-affiliated.  
 **Stack:** Node · Go · gateway cutover · contract tests
@@ -39,12 +39,12 @@ Generic retail orders/inventory domain — **not** POS product code, **not** emp
 
 | Project | What it is |
 |---|---|
-| [rbac-management-dashboard](https://github.com/an1ket-s1ngh/rbac-management-dashboard) | Role/permission admin console — Next.js, TypeScript, Supabase |
-| [Stega-Tool](https://github.com/an1ket-s1ngh/Stega-Tool) | Multi-format steganography toolkit (text / audio / video) — Python |
+| [rbac-management-dashboard](https://github.com/acephos/rbac-management-dashboard) | Role/permission admin console — Next.js, TypeScript, Supabase |
+| [Stega-Tool](https://github.com/acephos/Stega-Tool) | Multi-format steganography toolkit (text / audio / video) — Python |
 
 Older browser/JS practice repos exist; they are not flagship work.
 
-More public signal will land on [github.com/an1ket-s1ngh](https://github.com/an1ket-s1ngh) as agent-harness and modernization experiments mature.
+More public signal will land on [github.com/acephos](https://github.com/acephos) as agent-harness and modernization experiments mature.
 
 ## Stack
 
@@ -69,11 +69,11 @@ Still fluent in JS/React when needed; primary focus is systems, services, and ag
 ## Stats
 
 <p>
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=an1ket-s1ngh&show_icons=true&theme=dark&hide_border=true&count_private=true" alt="GitHub stats" />
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=an1ket-s1ngh&layout=compact&theme=dark&hide_border=true" alt="Top languages" />
+  <img height="160" src="https://github-readme-stats.vercel.app/api?username=acephos&show_icons=true&theme=dark&hide_border=true&count_private=true" alt="GitHub stats" />
+  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=acephos&layout=compact&theme=dark&hide_border=true" alt="Top languages" />
 </p>
 
 ## Connect
 
-- GitHub: [an1ket-s1ngh](https://github.com/an1ket-s1ngh)
+- GitHub: [acephos](https://github.com/acephos)
 - LinkedIn: [an1ket-s1ngh](https://www.linkedin.com/in/an1ket-s1ngh)
