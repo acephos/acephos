@@ -1,7 +1,6 @@
 # Aniket Singh
 
-**Agentic systems engineer** · polyglot builder · Hyderabad  
-[NCR Voyix](https://www.ncrvoyix.com) 
+**Agentic systems engineer** · polyglot builder · Hyderabad · [NCR Voyix](https://www.ncrvoyix.com) 
 
 I build the systems that help product teams ship — agent harnesses, automation, and service modernization — working across **Go, TypeScript, Rust, and Zig** (plus JS/Python when the job needs it). Less “full-stack web resume,” more systems, tooling, and agent-assisted delivery.
 
