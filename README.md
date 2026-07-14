@@ -76,4 +76,4 @@ Still fluent in JS/React when needed; primary focus is systems, services, and ag
 ## Connect
 
 - GitHub: [acephos](https://github.com/acephos)
-- LinkedIn: [an1ket-s1ngh](https://www.linkedin.com/in/an1ket-s1ngh)
+- LinkedIn: [Aniket Singh](https://www.linkedin.com/in/acephos)
