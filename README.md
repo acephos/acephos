@@ -2,13 +2,13 @@
 
 **Agentic systems engineer** · polyglot builder · Hyderabad · [NCR Voyix](https://www.ncrvoyix.com) 
 
-I build the systems that help product teams ship — agent harnesses, automation, and service modernization — working across **Go, TypeScript, Rust, and Zig** (plus JS/Python when the job needs it). Less “full-stack web resume,” more systems, tooling, and agent-assisted delivery.
+I build the systems that help product teams ship — agent harnesses, automation, and service modernization — working across **Go, TypeScript, and Rust** (plus JS/Python when the job needs it). Less “full-stack web resume,” more systems, tooling, and agent-assisted delivery.
 
 ## Now
 
 - **Agent harness tooling** — custom agentic workflows on open-source foundations (including the **pi** agent framework), oriented around how product teams actually ship software
 - **Shipping automation** — DevOps, QA, and verification loops that make agent-assisted work trustworthy
-- **Polyglot systems** — Go services, TypeScript at the edges, systems work in Rust/Zig where it fits
+- **Polyglot systems** — Go services, TypeScript at the edges, systems work in Rust where it fits
 - **Modernization** — taking legacy enterprise stacks toward clearer service boundaries without theater
 
 ## At work — NCR Voyix
@@ -50,7 +50,6 @@ More public signal will land on [github.com/acephos](https://github.com/acephos)
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
-![Zig](https://img.shields.io/badge/Zig-F7A41D?style=flat-square&logo=zig&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
