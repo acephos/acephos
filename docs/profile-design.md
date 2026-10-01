@@ -13,8 +13,8 @@ These informed the structure; no artwork or profile wording was copied.
 
 ## Maintenance
 
-- Edit both `assets/header-light.svg` and `assets/header-dark.svg` when changing banner text. Keep the visible identity in the image alt text and native README introduction.
-- The `<picture>` sources follow `prefers-color-scheme`. GitHub theme overrides can differ from system preference; both variants have their own complete background and legible contrast.
+- Edit the desktop `assets/header-light.svg` / `assets/header-dark.svg` and compact `assets/header-mobile-light.svg` / `assets/header-mobile-dark.svg` variants when changing banner text. Keep the visible identity in the image alt text and native README introduction.
+- Compact variants keep the name legible below a 600px viewport. The `<picture>` sources follow `prefers-color-scheme`. GitHub theme overrides can differ from system preference; both variants have their own complete background and legible contrast.
 - Keep the main project summaries brief and the verification notes accurate. Update test counts only when supported by the linked evidence.
 - Keep relative images and write-up links inside this repository so branch previews work.
 - The public LinkedIn URL matches the existing profile social link.
