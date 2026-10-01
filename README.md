@@ -6,10 +6,10 @@ The projects below show the implementation, verification, and current limits of 
 
 | Project | Evidence and scope |
 |---|---|
-| [acex](https://github.com/acephos/acex) | Rust terminal interface for the Herdr protocol, organized into workspace crates with protocol, state, rendering, and offline validation. A preview; consult its verification record for live/platform coverage. |
-| [nixos-wsl](https://github.com/acephos/nixos-wsl) | Locked NixOS/WSL configuration, rebuild/backup automation, and restore tooling. OS locks and mutable user tools have separate reproducibility boundaries; a clean-machine restore needs its own dated evidence. |
+| [acex](https://github.com/acephos/acex) | Rust terminal control plane with a [Linux live recording and verification record](https://github.com/acephos/acex/blob/master/docs/artifacts/profile-verification-2026-10-01.md), Windows/macOS offline CI, and explicitly synthetic reducer/render timings. A source-build preview. |
+| [nixos-wsl](https://github.com/acephos/nixos-wsl) | Pinned NixOS/WSL configuration with verified build receipts, locked CLI installation, and a fresh-distro evidence tool. Full system-build CI passes; [actual Windows restore evidence remains pending](https://github.com/acephos/nixos-wsl/blob/main/docs/RESTORE_EVIDENCE.md). |
 | [workstream](https://github.com/acephos/workstream) | TypeScript CLI for durable named model sessions. Session writes are serialized, checks run explicit host commands with receipts, and 22 tests pass in CI on Node 20/22/24. The live adapter generates text. |
-| [strangler-lab](https://github.com/acephos/strangler-lab) | Node-to-Go service migration lab with contract tests and gateway routing. Additional migration automation is being reviewed in [PR #1](https://github.com/acephos/strangler-lab/pull/1); it is a local lab with stated evidence limits. |
+| [strangler-lab](https://github.com/acephos/strangler-lab) | Node-to-Go migration lab with 24 contract assertions, completed read-only shadow comparisons, keyed retries, and state-preserving cutover/rollback. [Merged implementation](https://github.com/acephos/strangler-lab/pull/1); read the [controlled walkthrough](docs/strangler-walkthrough.md). |
 
 Read the [workstream reliability case study](docs/workstream-reliability.md) for a concrete failure, fix, and verification boundary.
 
