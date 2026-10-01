@@ -1,77 +1,20 @@
 # Aniket Singh
 
-**Agentic systems engineer** · polyglot builder · Hyderabad · [NCR Voyix](https://www.ncrvoyix.com) 
+I work on agent harnesses, developer tooling, and service modernization using Rust, TypeScript, and Go.
 
-I build the systems that help product teams ship — agent harnesses, automation, and service modernization — working across **Go, TypeScript, and Rust** (plus JS/Python when the job needs it). Less “full-stack web resume,” more systems, tooling, and agent-assisted delivery.
+The projects below show the implementation, verification, and current limits of that work.
 
-## Now
-
-- **Agent harness tooling** — custom agentic workflows on open-source foundations (including the **pi** agent framework), oriented around how product teams actually ship software
-- **Shipping automation** — DevOps, QA, and verification loops that make agent-assisted work trustworthy
-- **Polyglot systems** — Go services, TypeScript at the edges, systems work in Rust where it fits
-- **Modernization** — taking legacy enterprise stacks toward clearer service boundaries without theater
-
-## At work — NCR Voyix
-
-High-level only (enterprise retail / POS context):
-
-- Built a **custom agent harness** on the open-source **pi** agent framework, aimed at product-team shipping workflows
-- Led / heavily involved in modernizing enterprise-scale legacy **Windows monolithic .NET POS** systems toward **Go microservices**
-- Jack-of-all-trades across **DevOps, automation, QA, and harness tooling** — not a narrow frontend seat
-
-No proprietary architecture, internal codenames, or customer detail here — and nothing company-internal is open-sourced under my account.
-
-## Public work
-
-### Featured
-
-### [workstream](https://github.com/acephos/workstream)
-Multi-session agent orchestration harness — parallel workstreams, role routing (`fast` / `good`), and delivery contracts.  
-**Stack:** TypeScript CLI · mock adapter offline · optional OpenAI-compatible backend · CI + tests
-
-### [strangler-lab](https://github.com/acephos/strangler-lab)
-Strangler Fig lab: legacy Node monolith → Go microservices with gateway cutover and contract tests.  
-Generic retail orders/inventory domain — **not** POS product code, **not** employer-affiliated.  
-**Stack:** Node · Go · gateway cutover · contract tests
-
-### Earlier public work
-
-| Project | What it is |
+| Project | Evidence and scope |
 |---|---|
-| [rbac-management-dashboard](https://github.com/acephos/rbac-management-dashboard) | Role/permission admin console — Next.js, TypeScript, Supabase |
-| [Stega-Tool](https://github.com/acephos/Stega-Tool) | Multi-format steganography toolkit (text / audio / video) — Python |
+| [acex](https://github.com/acephos/acex) | Rust terminal interface for the Herdr protocol, organized into workspace crates with protocol, state, rendering, and offline validation. A preview; consult its verification record for live/platform coverage. |
+| [nixos-wsl](https://github.com/acephos/nixos-wsl) | Locked NixOS/WSL configuration, rebuild/backup automation, and restore tooling. OS locks and mutable user tools have separate reproducibility boundaries; a clean-machine restore needs its own dated evidence. |
+| [workstream](https://github.com/acephos/workstream) | TypeScript CLI for durable named model sessions. Session writes are serialized, checks run explicit host commands with receipts, and 22 tests pass in CI on Node 20/22/24. The live adapter generates text. |
+| [strangler-lab](https://github.com/acephos/strangler-lab) | Node-to-Go service migration lab with contract tests and gateway routing. Additional migration automation is being reviewed in [PR #1](https://github.com/acephos/strangler-lab/pull/1); it is a local lab with stated evidence limits. |
 
-Older browser/JS practice repos exist; they are not flagship work.
+Read the [workstream reliability case study](docs/workstream-reliability.md) for a concrete failure, fix, and verification boundary.
 
-More public signal will land on [github.com/acephos](https://github.com/acephos) as agent-harness and modernization experiments mature.
+Earlier work includes the [RBAC dashboard](https://github.com/acephos/rbac-management-dashboard), whose authorization/RLS changes are awaiting staged database verification, and [Stega-Tool](https://github.com/acephos/Stega-Tool), an educational concealment exercise with persisted-file round-trip tests. Browser exercises and coursework remain learning history. Imported research and starter snapshots retain upstream attribution.
 
-## Stack
+I prefer durable state, explicit authorization, failure recovery, and test results that support the claims made about a project. Repository source and test history are the evidence; private operational assets and employer work are outside this public showcase.
 
-![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-
-Still fluent in JS/React when needed; primary focus is systems, services, and agentic tooling.
-
-## How I work
-
-- **Agent-assisted product engineering** — agents for parallel workstreams; humans own intent, architecture, and merge quality
-- **Verification-first** — automated checks and honest failure modes over “it looked good in the chat”
-- **Polyglot pragmatism** — pick the language that fits the constraint, not the resume keyword of the week
-- **Breadth with depth** — comfortable spanning DevOps, QA, automation, and product delivery when the team needs it
-
-## Stats
-
-<p>
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=acephos&show_icons=true&theme=dark&hide_border=true&count_private=true" alt="GitHub stats" />
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=acephos&layout=compact&theme=dark&hide_border=true" alt="Top languages" />
-</p>
-
-## Connect
-
-- GitHub: [acephos](https://github.com/acephos)
-- LinkedIn: [Aniket Singh](https://www.linkedin.com/in/acephos)
+[GitHub](https://github.com/acephos) · [LinkedIn](https://www.linkedin.com/in/acephos)
