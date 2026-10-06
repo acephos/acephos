@@ -1,19 +1,42 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
-  <title id="title">Aniket Singh</title>
-  <desc id="desc">Aniket Singh, @acephos. White text on a dark slate gray gradient.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">Aniket Singh — @acephos</title>
+  <desc id="desc">The one who seeks shall always outdo the one who does not. A dark slate gradient with fine orbital lines and small points of light.</desc>
   <defs>
     <linearGradient id="slate" x1="0" y1="1" x2="1" y2="0">
-      <stop offset="0" stop-color="#171c23"/>
-      <stop offset="0.5" stop-color="#282f39"/>
+      <stop stop-color="#171c23"/>
+      <stop offset="0.55" stop-color="#2b333e"/>
       <stop offset="1" stop-color="#46515f"/>
     </linearGradient>
-    <radialGradient id="light" cx="0.8" cy="0" r="0.9">
-      <stop stop-color="#cbd5e1" stop-opacity="0.08"/>
+    <radialGradient id="light" cx="0.82" cy="0.15" r="0.75">
+      <stop stop-color="#cbd5e1" stop-opacity="0.07"/>
       <stop offset="1" stop-color="#cbd5e1" stop-opacity="0"/>
     </radialGradient>
+    <linearGradient id="orbit" x1="0" y1="1" x2="1" y2="0">
+      <stop stop-color="#94a3b8" stop-opacity="0.12"/>
+      <stop offset="0.6" stop-color="#cbd5e1" stop-opacity="0.65"/>
+      <stop offset="1" stop-color="#94a3b8" stop-opacity="0.2"/>
+    </linearGradient>
+    <clipPath id="frame"><rect width="1200" height="420" rx="18"/></clipPath>
   </defs>
-  <rect width="1200" height="340" rx="16" fill="url(#slate)"/>
-  <rect width="1200" height="340" rx="16" fill="url(#light)"/>
-  <text x="72" y="174" fill="#f1f5f9" font-family="system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="80" font-weight="600" letter-spacing="-2">Aniket Singh</text>
-  <text x="74" y="226" fill="#b8c1cc" font-family="system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="28" font-weight="400">@acephos</text>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="420" fill="url(#slate)"/>
+    <rect width="1200" height="420" fill="url(#light)"/>
+    <g transform="translate(958 210)" opacity="1" fill="none">
+      <circle r="140" stroke="#cbd5e1" stroke-opacity="0.18"/>
+      <circle r="118" stroke="#cbd5e1" stroke-opacity="0.08" stroke-dasharray="2 9"/>
+      <ellipse rx="180" ry="63.0" transform="rotate(-34)" stroke="url(#orbit)" stroke-width="1.2"/>
+      <ellipse rx="180" ry="63.0" transform="rotate(34)" stroke="#cbd5e1" stroke-opacity="0.16"/>
+      <path d="M-12 0h24M0-12v24" stroke="#cbd5e1" stroke-opacity="0.5"/>
+      <circle cx="-114.8" cy="-79.8" r="3.5" fill="#e2e8f0"/>
+      <circle cx="114.8" cy="79.8" r="2.5" fill="#cbd5e1"/>
+      <circle cx="149" cy="-91.0" r="2" fill="#cbd5e1" fill-opacity="0.6"/>
+    </g>
+    <text x="64" y="142" fill="#f1f5f9" font-family="system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="72" font-weight="600" letter-spacing="-2">Aniket Singh</text>
+    <text x="66" y="186" fill="#aeb9c7" font-family="system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="23">@acephos</text>
+    <path d="M66 235h36" stroke="#aeb9c7" stroke-opacity="0.55"/>
+    <text x="64" y="277" fill="#d8dee7" font-family="Georgia,Times New Roman,serif" font-size="30" font-style="italic">
+      <tspan x="64" dy="0">The one who seeks shall always</tspan>
+      <tspan x="64" dy="42">outdo the one who does not.</tspan>
+    </text>
+  </g>
 </svg>

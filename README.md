@@ -3,7 +3,7 @@
   <source media="(max-width: 600px)" srcset="assets/header-mobile-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/header-light.svg">
-  <img alt="Aniket Singh — @acephos" src="assets/header-light.svg" width="1200">
+  <img alt="Aniket Singh — @acephos. The one who seeks shall always outdo the one who does not." src="assets/header-light.svg" width="1200">
 </picture>
 
 <p align="center">
