@@ -7,6 +7,7 @@
 </picture>
 
 <p align="center">
+  <a href="#projects">Projects</a> &nbsp; / &nbsp;
   <a href="#field-notes">Field notes</a> &nbsp; / &nbsp;
   <a href="https://www.linkedin.com/in/acephos">LinkedIn ↗</a>
 </p>
@@ -14,6 +15,8 @@
 I’m **Aniket**, an engineer in Hyderabad working on **agent harnesses, developer tooling, and service modernization**. I like the parts of a system that make everything else trustworthy: durable state, clear boundaries, and a way back when things go wrong.
 
 `Rust` · `TypeScript` · `Go` · `Kotlin` · `Nix` · `PostgreSQL` · `Linux`
+
+## Projects
 
 ### 01 / [acex](https://github.com/acephos/acex)
 
