@@ -9,12 +9,12 @@
 <p align="center">
   <a href="#selected-work">Selected work</a> &nbsp; / &nbsp;
   <a href="#field-notes">Field notes</a> &nbsp; / &nbsp;
-  <a href="https://www.linkedin.com/in/an1ket-s1ngh">LinkedIn ↗</a>
+  <a href="https://www.linkedin.com/in/acephos">LinkedIn ↗</a>
 </p>
 
 I’m **Aniket**, an engineer in Hyderabad working on **agent harnesses, developer tooling, and service modernization**. I like the parts of a system that make everything else trustworthy: durable state, clear boundaries, and a way back when things go wrong.
 
-`Rust` · `TypeScript` · `Go` · `Nix` · `PostgreSQL` · `Linux`
+`Rust` · `TypeScript` · `Go` · `Kotlin` · `Nix` · `PostgreSQL` · `Linux`
 
 ## Selected work
 
@@ -42,6 +42,12 @@ I’m **Aniket**, an engineer in Hyderabad working on **agent harnesses, develop
 
 [Explore the code ↗](https://github.com/acephos/strangler-lab) · [Migration walkthrough →](docs/strangler-walkthrough.md)
 
+### 05 / [Hungii](https://github.com/acephos/hungii)
+
+**Meal planning and private food tracking on Android.** A Kotlin/Jetpack Compose app for choosing meals around a food budget and nutrition goals, with encrypted offline tracking, optional sync, and an opt-in AI assistant. Available as an Android preview; live ordering awaits provider access and staging verification.
+
+[Explore the code ↗](https://github.com/acephos/hungii) · [Download the Android preview ↗](https://github.com/acephos/hungii/releases)
+
 ## Field notes
 
 | Write-up | What it covers |
@@ -58,6 +64,7 @@ The project links lead to implementation and test evidence, with their limits st
 - **nixos-wsl:** Full system-build CI and build receipts. Actual Windows restore evidence is still pending.
 - **workstream:** 22 tests in CI on Node 20/22/24. Host checks and a text-generating adapter; independent worker execution is outside the current MVP.
 - **strangler-lab:** 24 contract assertions, completed read-only shadow comparisons, and controlled cutover/rollback. State is in memory; crash durability and production SLA claims are outside this lab.
+- **Hungii:** Development-signed Android preview with encrypted offline tracking and optional sync. The AI assistant uses opt-in cloud inference; live ordering and payment remain gated on provider access and staging verification.
 
 Earlier experiments include [Stega-Tool](https://github.com/acephos/Stega-Tool), an educational concealment tool with persisted-file round-trip tests, and the [RBAC dashboard](https://github.com/acephos/rbac-management-dashboard), whose authorization/RLS changes await staged database verification.
 
@@ -70,5 +77,5 @@ Coursework and browser exercises remain learning history. Imported research and 
 <p align="center">
   <strong>Build deliberately. Verify the behavior. Keep a recovery path.</strong><br>
   <a href="https://github.com/acephos?tab=repositories">Repositories</a> &nbsp; · &nbsp;
-  <a href="https://www.linkedin.com/in/an1ket-s1ngh">LinkedIn</a>
+  <a href="https://www.linkedin.com/in/acephos">LinkedIn</a>
 </p>
