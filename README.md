@@ -24,25 +24,19 @@ I’m **Aniket**, an engineer in Hyderabad working on **agent harnesses, develop
 
 [Explore the code ↗](https://github.com/acephos/acex) · [Live Linux walkthrough ↗](https://github.com/acephos/acex/blob/master/docs/artifacts/profile-verification-2026-10-01.md)
 
-### 02 / [nixos-wsl](https://github.com/acephos/nixos-wsl)
-
-**A development environment you can account for.** Pinned NixOS/WSL configuration, locked CLI installs, and build receipts that distinguish saved source from a verified system. Full system-build CI passes; a Windows restore drill remains pending.
-
-[Explore the configuration ↗](https://github.com/acephos/nixos-wsl) · [Recovery evidence ↗](https://github.com/acephos/nixos-wsl/blob/main/docs/RESTORE_EVIDENCE.md)
-
-### 03 / [workstream](https://github.com/acephos/workstream)
+### 02 / [workstream](https://github.com/acephos/workstream)
 
 **Named model sessions with durable state.** A TypeScript CLI with serialized writes, atomic snapshots, and explicit host checks that leave receipts. The live adapter generates text; checks run on the host.
 
 [Explore the code ↗](https://github.com/acephos/workstream) · [Reliability case study →](docs/workstream-reliability.md)
 
-### 04 / [strangler-lab](https://github.com/acephos/strangler-lab)
+### 03 / [strangler-lab](https://github.com/acephos/strangler-lab)
 
 **Move a service without losing its state.** A Node-to-Go migration lab exploring read-only shadow traffic, keyed retries, and state-preserving cutover and rollback in a controlled local stack.
 
 [Explore the code ↗](https://github.com/acephos/strangler-lab) · [Migration walkthrough →](docs/strangler-walkthrough.md)
 
-### 05 / [Hungii](https://github.com/acephos/hungii)
+### 04 / [Hungii](https://github.com/acephos/hungii)
 
 **Meal planning and private food tracking on Android.** A Kotlin/Jetpack Compose app for choosing meals around a food budget and nutrition goals, with encrypted offline tracking, optional sync, and an opt-in AI assistant. Available as an Android preview; live ordering awaits provider access and staging verification.
 
@@ -61,7 +55,6 @@ I’m **Aniket**, an engineer in Hyderabad working on **agent harnesses, develop
 The project links lead to implementation and test evidence, with their limits stated explicitly.
 
 - **acex:** Linux live recording, Windows/macOS offline CI, and synthetic reducer/render timings. The timings are not live agent-load measurements.
-- **nixos-wsl:** Full system-build CI and build receipts. Actual Windows restore evidence is still pending.
 - **workstream:** 22 tests in CI on Node 20/22/24. Host checks and a text-generating adapter; independent worker execution is outside the current MVP.
 - **strangler-lab:** 24 contract assertions, completed read-only shadow comparisons, and controlled cutover/rollback. State is in memory; crash durability and production SLA claims are outside this lab.
 - **Hungii:** Development-signed Android preview with encrypted offline tracking and optional sync. The AI assistant uses opt-in cloud inference; live ordering and payment remain gated on provider access and staging verification.
